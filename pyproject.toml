@@ -1,0 +1,11 @@
+[project]
+name = "local-llama-with-memory"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "litellm>=1.65.7",
+    "mem0ai==0.1.29",
+    "ollama>=0.4.7",
+    "openai>=1.72.0",
+    "streamlit>=1.44.1",
+]
