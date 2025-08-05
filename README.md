@@ -23,7 +23,7 @@ uv --native-tls sync
 
 ```bash
 docker pull qdrant/qdrant
-docker run -p 6333:6333 qdrant/qdrant
+docker run -d -p 6333:6333 qdrant/qdrant
 ```
 
 4. Install [Ollama](https://ollama.com/download) and pull [llama 3.1](https://ollama.com/library/llama3.1) and [embeddings](https://ollama.com/library/nomic-embed-text)
@@ -33,7 +33,13 @@ ollama pull llama3.1:latest
 ollama pull nomic-ai/nomic-embed:latest
 ```
 
-5. Run the Streamlit App
+5. Run ollama server
+
+```bash
+ollama serve
+```
+
+6. Run the Streamlit App
 
 ```bash
 uv --native-tls run streamlit run local_llama_memory.py
@@ -48,4 +54,3 @@ uv --native-tls run streamlit run local_llama_memory.py
 - Model [llama3.1](https://ollama.com/library/llama3.1)
 - Embeddings [nomic-embed](https://ollama.com/library/nomic-embed-text)
 - vector similarity search engine and vector database [quadrant](https://github.com/qdrant/qdrant)
-
