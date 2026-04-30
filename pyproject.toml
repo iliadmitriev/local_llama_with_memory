@@ -6,6 +6,6 @@ dependencies = [
     "litellm>=1.65.7",
     "mem0ai>=2.0.1",
     "ollama>=0.4.7",
-    "openai>=2.32.0",
+    "openai>=2.33.0",
     "streamlit>=1.57.0",
 ]
