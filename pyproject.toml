@@ -5,7 +5,7 @@ requires-python = ">=3.12"
 dependencies = [
     "litellm>=1.65.7",
     "mem0ai>=2.0.1",
-    "ollama>=0.4.7",
+    "ollama>=0.6.2",
     "openai>=2.33.0",
     "streamlit>=1.57.0",
 ]
