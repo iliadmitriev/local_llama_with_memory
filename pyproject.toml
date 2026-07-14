@@ -3,7 +3,7 @@ name = "local-llama-with-memory"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
-    "litellm>=1.91.1",
+    "litellm>=1.92.0",
     "mem0ai>=2.0.12",
     "ollama>=0.6.2",
     "openai>=2.45.0",
