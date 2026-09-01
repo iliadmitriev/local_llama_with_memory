@@ -7,5 +7,5 @@ dependencies = [
     "mem0ai>=2.0.19",
     "ollama>=0.6.2",
     "openai>=2.53.0",
-    "streamlit>=1.61.1",
+    "streamlit>=1.62.0",
 ]
